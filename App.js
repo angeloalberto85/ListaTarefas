@@ -85,6 +85,7 @@ export default function App() {
           {taskList.filter(t => !t.completed).length} pendentes
         </Text>
       </View>
+      
 
       {/* LISTA DE TAREFAS */}
       <View style={styles.tasksWrapper}>
